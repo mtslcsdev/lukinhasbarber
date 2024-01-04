@@ -1,0 +1,89 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0;
+}
+
+h2 {
+    margin-top: -75px;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+table {
+    width: 30%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+}
+
+p {
+    text-align: center;
+    border-style: 2px solid #333;
+    padding: 10px 20px;
+    display: inline-block;
+    animation: exemplo 2s infinite alternate; /* Animação */
+    margin-top: -30px;
+}
+
+        /* Animação */
+        @keyframes exemplo {
+            from { transform: scale(1); }
+            to { transform: scale(1.1); }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+}
+
+.redes-sociais img {
+    width: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.redes-sociais img:hover {
+    transform: scale(1.2);
+}
